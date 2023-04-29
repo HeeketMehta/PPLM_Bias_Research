@@ -59,9 +59,35 @@ balanced_train.csv
 
 Based on the above data, we develop a PyTorch based classification model, that takes in the sentence embedding as the features and `Total Bias` as target variable and classifies into 2 classes. <br />
 
-#### Model Summary/Architecture -- (INSERT IMAGE)
+#### Model Summary/Architecture -- <br />
+![Model_summary](https://github.com/HeeketMehta/PPLM_Bias_Research/blob/main/PPLM/imgs/Model%20Summary.png)
 
-#### Model Performance -- (INSERT IMAGE)
+#### Model Performance -- 
+
+```
+epoch: 1 train loss: 0.308 train accuracy: 0.876
+epoch: 2 train loss: 0.269 train accuracy: 0.894
+epoch: 3 train loss: 0.259 train accuracy: 0.899
+epoch: 4 train loss: 0.257 train accuracy: 0.903
+epoch: 5 train loss: 0.247 train accuracy: 0.904
+epoch: 6 train loss: 0.240 train accuracy: 0.906
+epoch: 7 train loss: 0.240 train accuracy: 0.906
+epoch: 8 train loss: 0.242 train accuracy: 0.908
+epoch: 9 train loss: 0.233 train accuracy: 0.909
+epoch: 10 train loss: 0.231 train accuracy: 0.909
+epoch: 11 train loss: 0.230 train accuracy: 0.911
+epoch: 12 train loss: 0.230 train accuracy: 0.908
+epoch: 13 train loss: 0.227 train accuracy: 0.911
+epoch: 14 train loss: 0.225 train accuracy: 0.910
+epoch: 15 train loss: 0.220 train accuracy: 0.911
+epoch: 16 train loss: 0.228 train accuracy: 0.915
+epoch: 17 train loss: 0.217 train accuracy: 0.914
+epoch: 18 train loss: 0.227 train accuracy: 0.910
+epoch: 19 train loss: 0.217 train accuracy: 0.914
+epoch: 20 train loss: 0.217 train accuracy: 0.914
+
+TESTING ACCURACY IS ----  91.41372607655502 %
+```
 
 
 <br />
